@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: black;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    color: #e50914;
+    font-family: 'arial black',Times;
+    font-size: 25px;
+    margin-right: 25px;
+    margin-left: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+.menu{
+    margin-left: 600px;
+    font-size: 25px;
+    color: white;
+}
